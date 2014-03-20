@@ -16,7 +16,10 @@
     },
     "autoload": {
         "psr-0": {
-            "ApplicationTest\\": "module/Application/test"
+            "ApplicationTest\\": "module/Application/test",
+            "Application\\": "module/Application/src",
+            "AlbumTest\\": "module/Album/Test",
+            "Album\\": "module/Album/src"
         }
     }
 }
